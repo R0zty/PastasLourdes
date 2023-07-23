@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Pacifico&family=Poppins:ital,wght@1,700&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+body  { background-image: url(/img/Fondoformulario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+#enunciado {font-size: 200px;
+    color: white;
+    margin: 50px;
+    display:flex;
+    justify-content: center;
+    font-family: 'Cookie', cursive;}
+
+nav {
+    display:flex;
+    justify-content: end;
+    
+    padding: 25px; }
+
+figure #navimg{
+    display:flex;
+    justify-content:flex-start;
+    width:15%;
+    height:auto;
+    margin-right:150px;}
+
+              
+ul {
+    list-style-type: none; 
+    margin: 20px; }
+       
+li {
+    display: inline-block; 
+    margin-right: 0px; }
+                  
+    
+nav a {
+    color: #fff; 
+    text-decoration: none; 
+    padding: 12px; 
+    font-size: 2em;
+    border: 1px solid white;
+    margin: 10px;}   
+              
+nav a:hover {
+    background-color: red; }
+
+
+div {
+    background-color: #fbfbfb;
+    width: 400px;
+    height: 40vh;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 0.9em;
+    margin: 30px 0;
+}
+
+#datos {position: relative;
+        top: -380px;}
+
+div {
+    color: black;
+    margin-bottom: 15px;
+}
+
+#suscripcion div {margin-top: -420px;}
+
+form {
+    display:block;
+    text-align: center;
+    justify-content: end;
+    gap: 10px;}
+
+form label {
+    font-weight: bold;
+}
+form input {
+    outline: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+}
+form input:focus {
+    border: 1px solid #6699c9;
+}
+form button {
+    background-color: red;
+    color: #fbfbfb;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 10px;
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+form button:hover {
+    background-color: red;
+}
+
+form p {
+    font-size: 0.8em;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+section { display:flex;
+          justify-content: end;
+          margin-right: 150px;}
+
+h2,h3,h4,h5 {text-align:center;
+            font-size:2em;
+            font-weight:bold;
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;}
+
+#datos { display:flex;
+         justify-content: start;
+         flex-direction: column;
+         }
+         
+
+#datos h4 { font-size: 80px;
+            color: white;
+            font-family:'Cookie', cursive;
+            display:flex;
+            justify-content:left;
+            margin-left: 200px;
+             }
+
+#datos ul {font-size: 2em;
+           color:white;
+           font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+
+#datos li { display:block;
+        justify-content: left;
+        margin-left: 200px;}
+
+
+
+aside div  { width: 100%;
+        height: auto;
+        }
+
+
+iframe {width: 100%;
+            height:auto;}
+
+footer {background-color: black;}
+      
+footer li  {color: white; 
+    font-size: 1em; 
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    text-transform:capitalize ;
+         }
+    
+footer a  {color: white; 
+    font-size: 1em; 
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+         }
+
+footer  a:link { color:blue; }
+
+span { color: yellow;}
+
+@media (max-width: 1200px) and (min-width:600px) {
+    body,main,nav,a,p,h1,h2,ul,li,footer,aside,nav img,img,form,div {flex-direction:column}} 
